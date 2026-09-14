@@ -1,0 +1,20 @@
+{
+  "name": "moonpaw-coin",
+  "version": "1.0.0",
+  "description": "MOONPAW - The cartoon memecoin taking over the galaxy. Presale, roadmap, tokenomics and more.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.13",
+    "@solana/web3.js": "^1.98.4",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2"
+  }
+}
